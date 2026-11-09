@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "donutauction",
+  "version": "${version}",
+  "name": "Donut Auction Client",
+  "description": "Client-side auction payment tracker and item timer for Donut SMP.",
+  "authors": ["EnderDevelopment"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.enderdevelopment.donutauction.DonutAuctionClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "fabric-api": "*"
+  }
+}
